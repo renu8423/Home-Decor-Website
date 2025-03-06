@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeDecore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@7/swiper-bundle.min.css"/>
+    
+</head>
+<body class="showCart">
+
+<!-- Header Section -->
+<header class="header">
+    <!-- logoicon section -->
+    <a href="#" class="logo">
+        HOME<img src="image/logo.png" alt=""> DECORE
+    </a>
+<!-- logoicon section -->
+    <!-- navbar section -->
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#feturesection">Features</a>
+        <a href="#product">Products</a>
+        <a href="#category">Categories</a>
+        <a href="#Review">Review</a>
+        <a href="#Blogs">Blogs</a>
+        <a href="#adoutus">Aboutus</a>
+    </nav>
+    <!-- navbarsection -->
+
+<!-- icon section -->
+    <div class="icons">
+        <div class="fa-solid fa-bars" id="hamburg-menu"></div>
+        <div class="fa-solid fa-magnifying-glass" id="search-btn"></div>
+        <div class="fa-solid fa-user login" id="login"></div>
+        <div class="fa-solid fa-cart-shopping shopping icon-cart" id="cart">
+            <span id="cart-count">0</span>
+        </div>
+        
+    </div>
+    <!-- icon section -->
+
+    <!-- search click form  -->
+    <form class="search-form">
+        <input type="text" placeholder="Search Here....">
+        <label for="search-box" class="fa-solid fa-magnifying-glass search"></label>
+    </form>
+    <!-- search click form  -->
+     
+    <!-- shoping cart -->
+    
+     
+    <div class="shopping-cart">
+        <h1>Shopping Cart</h1>
+        <div class="listcart">
+            <div class="item">
+                <!-- Dynamicaly add -->
+            </div>
+           </div>
+           <div class="cart-total">Total: $<span id="totalPrice">0</span></div>
+        <div class="btnn">
+            <button class="checkout">Checkout</button>
+            <button class="close-btn">Close</button> <!-- Corrected class -->
+        </div>
+    </div>
+
+
+     <!-- shoping cart -->
+    
+    <!--login form  -->
+
+    <form action="" class="login-form">
+        <h4>Login Here</h4>
+        <input type="email" placeholder="Enter Email" class="box"><br>
+        <input type="password" placeholder="Enter Password" class="box"><br>
+        <p>Forgot your password <a href="#">Click here..</a></p>
+        <p>Create your Acount?. <a href="#" id="Signup">Signup here..</a></p>
+        <input type="submit" value="login" class="btn">
+    </form>
+     <!--login form  -->
+
+    <!-- Signup -->
+<form action="" class="Signup-form">
+        <h4>Signup Here</h4>
+        <input type="text" placeholder="Enter Name" class="box"><br>
+        <input type="email" placeholder="Enter Email" class="box"><br>
+        <input type="password" placeholder="Enter Password" class="box"><br>
+        <p>Forgot your password <a href="#">Click here..</a></p>
+        <p>Already have an account? <a href="#" id="switchToLogin">Login here..</a></p>
+
+        <input type="submit" value="login" class="btn">
+    </form>
+      <!-- Signup -->
+</header>
+<!-- End Header Section/ -->
+
+<!-- banersection-->
+ <section id="home" class="home">
+    <img src="https://images.pexels.com/photos/271795/pexels-photo-271795.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+    <div class="content">
+  <h3> YOUR HOME WITH LOVE<br>FURNISH IN STYLE </br></h3>
+ <P>Writing desks come in various styles, from classic to modern. Industrial writing desks made from reclaimed wood can add a rustic charm to your workspace.</P>
+ <a href="#" class="btn"> ShopNow</a>    
+</div>
+
+ </section>
+<!-- banersection-->
+
+<!-- feturesection -->
+
+<section id="feturesection" class=" feturesection">
+    <h2 class="heading">Ours <span>Features</span></h2>
+
+    <div class="box-contener">
+        <div class="box1">
+            <img src="image\furnicher.jpg" style="height: 150px; width: 200px;" alt="" >
+         <h3>All Furneture</h3>
+         <p> Animi sit labore vero perspiciatis aliquam? Omnis harum fuga porro provident ratione! provident ratione</p>
+         <a href="#" class="btn">Click</a>
+        </div>
+        <div class="box1">
+            <img src="image\deleverboy.jpg" alt=""style="width: 200px; height: 150px;">
+         <h3>Free Deilevery</h3>
+         <p> Animi sit labore vero perspiciatis aliquam? Omnis harum fuga porro provident ratione! provident ratione</p>
+         <a href="#" class="btn">Click</a>
+        </div>
+        <div class="box1">
+            <img src="image\payment.jpg" alt="" style="width: 200px; height: 150px;">
+         <h3>Payment Section</h3>
+         <p> Animi sit labore vero perspiciatis aliquam? Omnis harum fuga porro provident ratione! provident ratione</p>
+         <a href="#" class="btn">Click</a>
+        </div>
+    </div>
+</section>
+<!-- feturesection -->
+
+<!-- product feture -->
+<section id="product" class=" product">
+    <h2 class="heading">Our <span>Products</span></h2>
+
+    <div id="productslider" class="swiper productslider">
+ <div id="wraper" class="swiper-wrapper">
+    <!-- 1 -->
+    <div class="swiper-slide productbox">
+        <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=600" alt="chair1">
+        <h3>chair1</h3>
+        <div class="price">$12.99 - $15.99</div>
+        <div class="star">
+            <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half"></i>
+        </div>
+        <a href="#" class='btn'>Add To Card</a>
+    </div>
+    <!-- 2 -->
+    <div class="swiper-slide productbox">
+        <img src="https://images.pexels.com/photos/1176516/pexels-photo-1176516.jpeg?auto=compress&cs=tinysrgb&w=600" alt="chair1">
+        <h3>chair1</h3>
+        <div class="price">$12.99 - $15.99</div>
+        <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+        </div>
+        <a href="#" class='btn'>Add To Card</a>
+    </div>
+<!-- 3 -->
+<div class="swiper-slide productbox">
+    <img src="https://images.pexels.com/photos/1743229/pexels-photo-1743229.jpeg?auto=compress&cs=tinysrgb&w=600" alt="chair1">
+    <h3>chair1</h3>
+    <div class="price">$12.99 - $15.99</div>
+    <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half"></i>
+    </div>
+    <a href="#" class='btn'>Add To Card</a>
+</div>
+<!-- 4 -->
+<div class="swiper-slide productbox">
+    <img src="https://images.pexels.com/photos/7938076/pexels-photo-7938076.jpeg?auto=compress&cs=tinysrgb&w=600" alt="chair1">
+    <h3>chair1</h3>
+    <div class="price">$12.99 - $15.99</div>
+    <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half"></i>
+    </div>
+    <a href="#" class='btn'>Add To Card</a>
+</div>
+</div>
+    </div>
+
+    <div id="productslider" class="swiper productslider">
+ <div id="wraper" class="swiper-wrapper">
+    <!-- 1 -->
+    <div class="swiper-slide productbox">
+        <img src="https://images.pexels.com/photos/6183734/pexels-photo-6183734.jpeg?auto=compress&cs=tinysrgb&w=600" alt="chair1">
+        <h3>chair1</h3>
+        <div class="price">$12.99 - $15.99</div>
+        <div class="star">
+            <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half"></i>
+        </div>
+        <a href="#" class='btn'>Add To Card</a>
+    </div>
+    <!-- 2 -->
+    <div class="swiper-slide productbox">
+        <img src="https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=600" alt="chair1">
+        <h3>chair1</h3>
+        <div class="price">$12.99 - $15.99</div>
+        <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+        </div>
+        <a href="#" class='btn'>Add To Card</a>
+    </div>
+<!-- 3 -->
+<div class="swiper-slide productbox">
+    <img src="https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=600" alt="chair1">
+    <h3>chair1</h3>
+    <div class="price">$12.99 - $15.99</div>
+    <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half"></i>
+    </div>
+    <a href="#" class='btn'>Add To Card</a>
+</div>
+<!-- 4 -->
+<div class="swiper-slide productbox">
+    <img src="https://images.pexels.com/photos/90319/pexels-photo-90319.jpeg?auto=compress&cs=tinysrgb&w=600" alt="chair1">
+    <h3>chair1</h3>
+    <div class="price">$12.99 - $15.99</div>
+    <div class="star">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half"></i>
+    </div>
+    <a href="#" class='btn'>Add To Card</a>
+</div>
+ </div>
+    </div>
+    </section>
+<!-- product feture -->
+
+<!-- catugary feture -->
+<section id="category" class=" category">
+    <h2 class="heading">Products <span>Category</span></h2>
+
+    <!-- <div class="box-contener">
+        <div class="box1">    
+            <img src="image\2.png" alt="" >
+         <h3>Armchair</h3>
+         <div class="price"> $230</div>
+         <button class="btn">Add To Card</button>
+        </div>
+    </div> -->
+ 
+
+    <div class="listProduct">
+
+    </div>
+ </section>
+<!-- ------------------------------ -->
+
+
+<!-- -- catugary feture -->
+
+<!-- Reviewfeture -->
+<section id="Review" class="Review">
+    <h2 class="heading">Customers <span>Reviews</span></h2>
+
+    <div class="box-container review-slider">
+        <div class="swiper-wrapper">
+
+            <!-- Review 1 -->
+            <div class="box1 swiper-slide">
+                <img src="image/name1.jpg" alt="John Doe">
+                <h3>sandeepMaheshwari</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero rerum vitae enim? Officiis rem quo beatae suscipit.</p>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="box1 swiper-slide">
+                <img src="image/name3.jpg" alt="Jane Smith">
+                <h3>Jane Smith</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero rerum vitae enim? Officiis rem quo beatae suscipit.</p>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="box1 swiper-slide">
+                <img src="image/name4.jpg" alt="Alice Johnson">
+                <h3>Alice Johnson</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero rerum vitae enim? Officiis rem quo beatae suscipit.</p>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="box1 swiper-slide">
+                <img src="image/name5.jpg" alt="Michael Brown">
+                <h3>Michael Brown</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero rerum vitae enim? Officiis rem quo beatae suscipit.</p>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+            <!-- Review 5 -->
+            <div class="box1 swiper-slide">
+                <img src="image/name3.jpg" alt="Michael Brown">
+                <h3>Michael Brown</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero rerum vitae enim? Officiis rem quo beatae suscipit.</p>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+            <!-- Review 6 -->
+            <div class="box1 swiper-slide">
+                <img src="image/name6.jpg" alt="Michael Brown">
+                <h3> Brown</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero rerum vitae enim? Officiis rem quo beatae suscipit.</p>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+
+              <!-- Review 7 -->
+              <div class="box1 swiper-slide">
+                <img src="image/name7.jpg" alt="Michael Brown">
+                <h3>Johnson</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero rerum vitae enim? Officiis rem quo beatae suscipit.</p>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+              <!-- Review 8 -->
+              <div class="box1 swiper-slide">
+                <img src="image/name8.jpg" alt="Michael Brown">
+                <h3>Michaown</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero rerum vitae enim? Officiis rem quo beatae suscipit.</p>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+              <!-- Review 8 -->
+              <div class="box1 swiper-slide">
+                <img src="image/name3.jpg" alt="Michael Brown">
+                <h3> Brown</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero rerum vitae enim? Officiis rem quo beatae suscipit.</p>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Review feture -->
+
+<!-- Blog feture -->
+ <section class="Blogs" id="Blogs">
+    <h2 class="heading">Our<span>Blogs</span></h2>
+<div class="box-contenter">
+    <div class="box">
+        <img src="image/blog1.jpeg" alt="" >
+           
+            <div class="icon">
+                <a href="#"><i class="fa-solid fa-user login" ></i>ByUsers</a>
+                <a href="#"><i class="fa-regular fa-calendar-days"></i> <span>1-May-2024</span></a>
+              </div>
+              <h3>HomeDecore</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui nostrum, perferendis sapiente fuga quae?</p>
+              <a href="#" class="btn">Read More</a>
+        </div>
+   
+    <!-- second box -->
+    <div class="box">
+        <img src="https://images.pexels.com/photos/860538/pexels-photo-860538.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" >
+           
+            <div class="icon">
+                <a href="#"><i class="fa-solid fa-user login" ></i>ByUsers</a>
+                <a href="#"><i class="fa-regular fa-calendar-days"></i> <span>1-May-2024</span></a>
+              </div>
+              <h3>HomeDecore</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui nostrum, perferendis sapiente fuga quae?</p>
+              <a href="#" class="btn">Read More</a>
+      
+    </div>
+     <!-- third box -->
+     <div class="box">
+        <img src="https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" >
+            
+            <div class="icon">
+                <a href="#"><i class="fa-solid fa-user login" ></i>ByUsers</a>
+                <a href="#"><i class="fa-regular fa-calendar-days"></i> <span>1-May-2024</span></a>
+              </div>
+              <h3>HomeDecore</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui nostrum, perferendis sapiente fuga quae?</p>
+              <a href="#" class="btn">Read More</a>
+        </div>
+   
+    
+    
+</div>
+ </section>
+<!-- Blog feture -->
+ <!-- about us -->
+
+<section class="aboutt" id="adoutus">
+    <h2 class="heading"><span>Aboutus</span></h2>
+    <div class="container">
+        
+        <p>Welcome to our company! We are dedicated to providing the best services and products to our customers.</p>
+        
+        <div class="about-content">
+            <img src="image\logo.png" alt="Company Image">
+            <div class="text">
+                <h3>Our Mission</h3>
+                <p>We strive to deliver high-quality solutions with a focus on customer satisfaction and innovation. Our team is passionate about what we do and continuously works to improve our services.</p>
+                <h3>Our Vision</h3>
+                <p>To be a leading company that inspires and transforms industries through cutting-edge technology and a commitment to excellence.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contectus -->
+<div class="containe">
+    
+    <h3>We’d love to hear from you! Fill out the form below.</h3>
+    <div class="contact-container">
+   <div> <img src="image\blog3.webp" alt=""></div>
+    <form action="#" method="post">
+        <div class="input-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+        </div>
+
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+        </div>
+
+        <div class="input-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+</div>
+</div>
+
+
+
+ <!-- about us -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- 📌 About Section -->
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>We provide high-quality products with the best deals. Stay connected for more updates!</p>
+            </div>
+
+            <!-- 📌 Quick Links -->
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- 📌 Contact Section -->
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: support@example.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Location: New York, USA</p>
+            </div>
+
+            <!-- 📌 Social Media Icons -->
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 📌 Copyright -->
+    <div class="footer-bottom">
+        <p>&copy; 2025 YourCompany. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+
+
+<script type="module" src="javascript.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@7/swiper-bundle.min.js"></script> -->
+
+<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+    const swiper = new Swiper('.productslider', {
+        loop: true,
+        slidesPerView: 3,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    });
+});
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    let swiper = new Swiper('.review-slider', {
+        loop: true,
+        slidesPerView: 3,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    });
+    })
+
+
+</script>
+
+</body>
+</html>

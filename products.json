@@ -1,0 +1,97 @@
+[
+    {
+        "id": "1",
+        "name": "Rocking Chair",
+        "price": 200,
+        "image": "image/1.png"
+    },
+    {
+        "id": "2",
+        "name": "Office Chair",
+        "price": 300,
+        "image": "image/2.png"
+    },
+    {
+        "id": "3",
+        "name": "Dining Chair",
+        "price": 150,
+        "image": "image/3.png"
+    },
+    {
+        "id": "4",
+        "name": "Lounge Chair",
+        "price": 400,
+        "image": "image/4.png"
+    },
+    {
+        "id": "5",
+        "name": "Recliner Chair",
+        "price": 500,
+        "image": "image/5.png"
+    },
+    {
+        "id": "6",
+        "name": "BeanBag Chair",
+        "price": 100,
+        "image": "image/6.png"
+    },
+    {
+        "id": "7",
+        "name": "Gaming Chair",
+        "price": 350,
+        "image": "image/7.png"
+    },
+    {
+        "id": "3",
+        "name": "Folding Chair",
+        "price": 80,
+        "image": "image/8.png"
+    },
+    {
+        "id": "5",
+        "name": "Recliner Chair",
+        "price": 500,
+        "image": "image/5.png"
+    },
+    {
+        "id": "1",
+        "name": "BeanBag Chair",
+        "price": 100,
+        "image": "image/6.png"
+    },
+    {
+        "id": "7",
+        "name": "Gaming Chair",
+        "price": 350,
+        "image": "image/7.png"
+    },
+    {
+        "id": "1",
+        "name": "Folding Chair",
+        "price": 80,
+        "image": "image/8.png"
+    }, {
+        "id": "5",
+        "name": "Recliner Chair",
+        "price": 500,
+        "image": "image/5.png"
+    },
+    {
+        "id": "6",
+        "name": "BeanBag Chair",
+        "price": 100,
+        "image": "image/6.png"
+    },
+    {
+        "id": "7",
+        "name": "Gaming Chair",
+        "price": 350,
+        "image": "image/7.png"
+    },
+    {
+        "id": "8",
+        "name": "Folding Chair",
+        "price": 80,
+        "image": "image/8.png"
+    }
+]
